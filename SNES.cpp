@@ -1,25 +1,13 @@
-/*
-   Created by Álvaro Justen aka Turicas
-   Contact: alvarojusten@gmail.com
-   License: GPLv2
-*/
+/*********************************************
+ *  Created by Álvaro Justen aka Turicas     *
+ * Contact: alvarojusten@gmail.com           *
+ * License: GPLv2                            *
+ *********************************************/
+
 
 #include <WProgram.h>
 #include "SNES.h"
 
-
-#define SNES_B       0b0000000000000001
-#define SNES_Y       0b0000000000000010
-#define SNES_SELECT  0b0000000000000100
-#define SNES_START   0b0000000000001000
-#define SNES_UP      0b0000000000010000
-#define SNES_DOWN    0b0000000000100000
-#define SNES_LEFT    0b0000000001000000
-#define SNES_RIGHT   0b0000000010000000
-#define SNES_A       0b0000000100000000
-#define SNES_X       0b0000001000000000
-#define SNES_L       0b0000010000000000
-#define SNES_R       0b0000100000000000
 
 void SNESClass::begin(uint8_t clockPin, uint8_t strobePin, uint8_t dataPin) {
     _clockPin = clockPin;
@@ -32,8 +20,9 @@ void SNESClass::begin(uint8_t clockPin, uint8_t strobePin, uint8_t dataPin) {
 void SNESClass::update() {
     /*
        Mapping from http://www.gamesx.com/controldata/snesdat.htm
-       | B | Y | Select | Start | Up | Down | Left | Right | A | X | L | R | N/A | N/A | N/A | N/A |
-       */
+       Keys: | B Y Select Start Up Down Left Right A X  L  R N/A N/A N/A N/A |
+       Bits: | 0 1   2      3    4   5    6    7   8 9 10 11  12  13  14  15 |
+     */
     unsigned int fromController = 0x00;
     uint8_t i;
 
