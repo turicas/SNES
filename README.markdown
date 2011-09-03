@@ -14,6 +14,12 @@ There is a
 [blog post about this function](http://blog.justen.eng.br/2010/12/controle-do-super-nintendo-snes-no.html)
 (in Portuguese).
 
+
+<div align="center">
+    <img src="http://farm4.static.flickr.com/3378/3638060195_27b7fbe650.jpg" alt="SNES controller" />
+</div>
+
+
 Usage
 -----
 
@@ -31,7 +37,7 @@ See the pins of the connector in the SNES controller below, connected to
 whatever digital port you want and enjoy!
 
 
-<div align="center"
+<div align="center">
     <img src"http://nespad.googlecode.com/files/snes_pinout.png" alt="SNES connector pinout" />
 </div>
 
