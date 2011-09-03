@@ -16,7 +16,7 @@ There is a
 
 
 <div align="center">
-    <img src="http://farm4.static.flickr.com/3378/3638060195_27b7fbe650.jpg" alt="SNES controller" />
+    <img src="https://github.com/turicas/SNES/blob/images/images/SNES_controller.jpg?raw=true" alt="SNES controller" />
 </div>
 
 
@@ -38,7 +38,7 @@ whatever digital port you want and enjoy!
 
 
 <div align="center">
-    <img src"http://nespad.googlecode.com/files/snes_pinout.png" alt="SNES connector pinout" />
+    <img src"https://github.com/turicas/SNES/blob/images/images/SNES_pinout.png?raw=true" alt="SNES connector pinout" />
 </div>
 
 
