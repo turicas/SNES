@@ -30,8 +30,10 @@ connected the clock, strobe and data pins (in this order).
 See the pins of the connector in the SNES controller below, connected to
 whatever digital port you want and enjoy!
 
-<img src"http://nespad.googlecode.com/files/snes_pinout.png" alt="SNES
-connector pinout" />
+
+<div align="center"
+    <img src"http://nespad.googlecode.com/files/snes_pinout.png" alt="SNES connector pinout" />
+</div>
 
 
 Why Not NESpad/SNESpad?
