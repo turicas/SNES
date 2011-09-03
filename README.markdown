@@ -38,7 +38,7 @@ whatever digital port you want and enjoy!
 
 
 <div align="center">
-    <img src"https://github.com/turicas/SNES/blob/images/images/SNES_pinout.png?raw=true" alt="SNES connector pinout" />
+    <img src="https://github.com/turicas/SNES/blob/images/images/SNES_pinout.png?raw=true" alt="SNES connector pinout" />
 </div>
 
 
