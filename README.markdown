@@ -17,7 +17,21 @@ There is a
 Usage
 -----
 
-For now, look at the examples folder. Enjoy!
+For now, look at the pins' connections below and upload one example from the
+Arduino IDE. Enjoy!
+
+
+Pins' Connections
+-----------------
+
+When you call `SNES.begin()` you need to pass as parameters the pins you
+connected the clock, strobe and data pins (in this order).
+
+See the pins of the connector in the SNES controller below, connected to
+whatever digital port you want and enjoy!
+
+<img src"http://nespad.googlecode.com/files/snes_pinout.png" alt="SNES
+connector pinout" />
 
 
 Why Not NESpad/SNESpad?
