@@ -14,6 +14,10 @@ void SNESClass::begin(uint8_t clockPin, uint8_t strobePin, uint8_t dataPin) {
     _strobePin = strobePin;
     _dataPin = dataPin;
     _state = 0x00;
+    
+    pinMode(strobe, OUTPUT);
+    pinMode(clock, OUTPUT);
+    pinMode(data, INPUT_PULLUP);
 }
 
 
